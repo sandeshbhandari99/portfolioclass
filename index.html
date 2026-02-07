@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Sandesh Bhamdari</title>
-    <meta name="description" content="Sandesh BHandari " />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandesh Bhandari</title>
+    <meta name="description" content="Sandesh Bhandari" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -10,157 +13,229 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="css/hero.css" />
     <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/skill.css" />
+    <link rel="stylesheet" href="css/skills.css" />
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/sidebar.css" />
     <link rel="stylesheet" href="css/work-count.css" />
     <link rel="stylesheet" href="css/contact.css" />
-   
   </head>
-  <nav class="sidebar">
-    <i id="hamburger" class="fa-solid fa-bars sidebar_hamburger"></i>
-    <div class="sidebar_content">
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-      </ul>
-    </div>
-  </nav>
+
   <body>
+    <nav class="sidebar">
+      <i id="hamburger" class="fa-solid fa-bars sidebar__hamburger"></i>
+      <div class="sidebar__content">
+        <img
+          class="sidebar__image"
+          src="images/profile.jpg"
+          alt="Profile Image"
+        />
+        <h1 class="sidebar__name">Sandesh Bhandari</h1>
+        <h2 class="sidebar__job">Developer <span>in Nepal</span></h2>
+
+        <ul class="sidebar__list">
+          <li class="sidebar__list__item"><a href="#hero">home</a></li>
+          <li class="sidebar__list__item"><a href="#about">about</a></li>
+          <li class="sidebar__list__item"><a href="#skills">skills</a></li>
+          <li class="sidebar__list__item"><a href="#contact">contact</a></li>
+        </ul>
+
+        <p class="sidebar__copyright">
+          &copy; 2026 All rights reserved | Made with &#128150; by
+          <span>Sandesh</span>
+        </p>
+      </div>
+    </nav>
+
     <section id="hero">
-      <h1>
-        Hi!
-        <br />
-        I am Sandesh Bhandari
-        <br />I am a Developer
+      <h1 class="hero__job">
+        Hi! <br />
+        I am Sandesh Bhandari <br />
+        I am a Developer
       </h1>
-      <p>Electronics, Communication and Information Engineer</p>
-      <br />
+      <h2 class="hero__edu">
+        Electronics, Communication and Information Engineer
+      </h2>
       <button>
-        Download CV
-        <i class="fa-solid fa-envelope-circle-check"></i>
+        Download CV <i class="fa-solid fa-envelope-circle-check"></i>
       </button>
     </section>
+
+    
     <section id="about" class="section">
-      <p class="section_title">about me</p>
-      <p class="section_subtitle">who am i></p>
-      <p class="about_description">
-        <strong>I’m an Electronics, Communication, and Information Engineering student passionate about designing practical, technology-driven solutions.
-           I enjoy bridging hardware and software by combining solid engineering principles with modern web technologies to build efficient, scalable, and user-centric systems. Driven by continuous learning and experimentation, I focus on refining my skills and turning innovative concepts into dependable, real-world applications.
+      <p class="section__title">about me</p>
+      <p class="section__subtitle">who am I?</p>
+      <p class="about__description">
+        <strong>
+          I’m an Electronics, Communication, and Information Engineering student
+          passionate about designing practical, technology-driven solutions. I
+          enjoy bridging hardware
+           and software by combining solid engineering
+          principles with modern web technologies to build efficient, scalable,
+          and user-centric systems. Driven by continuous learning and
+          experimentation, I focus on refining my skills and turning innovative
+          concepts into dependable, real-world applications.
+        </strong>
       </p>
 
-      <div class="about_skills">
-        <div>
+      <div class="about__skills">
+        <div class="about__box">
           <i class="fa-solid fa-ear-listen"></i>
-          <h3>web development</h3>
+          <h3>Web Development</h3>
         </div>
+       <div class="about__box">
+  <i class="fa-solid fa-brain"></i>
+  <h3>Artificial Intelligence</h3>
+</div>
 
-        <div>
-          <i class=""></i>
-          <h3>web development</h3>
-        </div>
+<div class="about__box">
+  <i class="fa-solid fa-microchip"></i>
+  <h3>Internet of Things</h3>
+</div>
 
-        <div>
-          <i class=""></i>
-          <h3>web development</h3>
-        </div>
+<div class="about__box">
+  <i class="fa-solid fa-robot"></i>
+  <h3>Machine Learning</h3>
+</div>
 
-        <div>
-          <i class=""></i>
-          <h3>web development</h3>
-        </div>
+<div class="about__box">
+  <i class="fa-solid fa-cloud"></i>
+  <h3>Cloud Computing</h3>
+</div>
+
+<div class="about__box">
+  <i class="fa-solid fa-shield-halved"></i>
+  <h3>Cyber Security</h3>
+</div>
+
+<div class="about__box">
+  <i class="fa-solid fa-code"></i>
+  <h3>Software Development</h3>
+</div>
+
+     
+
+      <div class="about__happy">
+        <h2>I am happy to know you that 10+ projects done successfully!</h2>
+        <button>Hire me</button>
       </div>
     </section>
+
+    <section id="work__count">
+      <span>50+</span><span>cups of coffee</span> <span>10+</span
+      ><span>projects</span> <span>3+</span><span>clients</span> <span>4</span
+      ><span>partners</span>
+    </section>
+
 
     <section id="skills" class="section">
-      <p class="section_title">my speciality</p>
-      <p class="section_subtitle">my skills</p>
+      <span class="section__title">my speciality</span>
+      <span class="section__subtitle">my skills</span>
+      <p>Here are some of my technical skills I have acquired.</p>
+
+      <div class="skill__box">
+        <div class="skill">
+          <span>HTML5</span>
+          <div class="skill__percent__box">
+            <div class="skill__percent" style="width: 75%; background: #ec5453">
+              <span>75%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>CSS3</span>
+          <div class="skill__percent__box">
+            <div class="skill__percent" style="width: 50%; background: #ec5453">
+              <span>50%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>PYTHON</span>
+          <div class="skill__percent__box">
+            <div class="skill__percent" style="width: 40%; background: #f9bf3f">
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>C</span>
+          <div class="skill__percent__box">
+            <div class="skill__percent" style="width: 70%; background: #a84cb8">
+              <span>70%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>MATLAB</span>
+          <div class="skill__percent__box">
+            <div class="skill__percent" style="width: 40%; background: #2fa499">
+              <span>40%</span>
+            </div>
+          </div>
+        </div>
+        <div class="skill">
+          <span>ARDUINO</span>
+          <div class="skill__percent__box">
+            <div class="skill__percent" style="width: 35%; background: #4054b2">
+              <span>35%</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <div class="outer_box">
-      <div class="skill_box">
-        <p>HTML</p>
-        <div class="skill_grey_box">
-          <div class="skill_color_box">
-            <span>88%</span>
-          </div>
-        </div>
-      </div>
+  
+    <section id="contact" class="section">
+      <p class="section__title">contact me</p>
+      <form id="contactForm" onsubmit="submitForm(event)">
+        <input
+          type="text"
+          placeholder="Name"
+          id="name"
+          name="name"
+          class="contact__input"
+        />
+        <textarea
+          id="message"
+          class="contact__textarea"
+          name="message"
+          placeholder="Message"
+          rows="4"
+        ></textarea>
+        <button class="contact__button" type="submit">Send Message</button>
+      </form>
+    </section>
 
-      <div class="skill_box">
-        <p>js</p>
-        <div class="skill_grey_box">
-          <div
-            class="skill_color_box"
-            style="width: 70%; color: purple; background: purple"
-          >
-            <span>68%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="skill_box">
-        <p>css</p>
-        <div class="skill_grey_box">
-          <div
-            class="skill_color_box"
-            style="width: 90%; color: green; background: green"
-          >
-            <span>90%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="skill_box">
-        <p>python</p>
-        <div class="skill_grey_box">
-          <div
-            class="skill_color_box"
-            style="width: 30%; color: pink; background: pink"
-          >
-            <span>30%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="skill_box">
-        <p>flutter</p>
-        <div class="skill_grey_box">
-          <div
-            class="skill_color_box"
-            style="width: 88%; color: black; background: black"
-          >
-            <span>88%</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="skill_box">
-        <p>java</p>
-        <div class="skill_grey_box">
-          <div
-            class="skill_color_box"
-            style="width: 90%; color: red; background: red"
-          >
-            <span>90%</span>
-          </div>
-        </div>
-      </div>
-    </div>
     <script>
-      const hamburger = document.querySelector("#hamburger");
+      function submitForm(event) {
+        event.preventDefault();
+        var name = document.getElementById("name").value;
+        var message = document.getElementById("message").value;
+        var form = document.getElementById("contactForm");
+
+        if (!name.trim()) {
+          form.innerHTML +=
+            "<p style='color: red;'>Error, Name is Required</p>";
+        } else {
+          console.log(JSON.stringify({ name, message }));
+          alert("Form submitted successfully! Check console.");
+        }
+      }
+
+      const hamburger = document.getElementById("hamburger");
       hamburger.addEventListener("click", () => {
-        hamburger.classList.toggle("sidebar_hamburger_translate");
+        hamburger.classList.toggle("sidebar__hamburger__translate");
       });
     </script>
   </body>

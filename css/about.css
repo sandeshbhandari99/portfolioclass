@@ -1,0 +1,48 @@
+.about_description{
+    color:rgba(0,0,0,0.7);
+    margin: bottom 40px ;
+    line-height: 1.8;
+}
+.about_skills > div{
+    margin-bottom: 50px;
+    border: 2px solid blue;
+    padding:24px;
+    color:blue;
+}
+
+.about_skills> div:nth-child(2){
+    border-bottom: 2px solid red;
+    color:red;
+}
+.about_skills>div:nth-child(3){
+    border-bottom: 2px solid green;
+    color: green;
+
+}
+.about_skills>div:nth-child(4){
+    border-bottom: 2px solid purple;
+    color:purple;
+
+}
+
+.about_skills i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about_skills h3{
+   font-weight: 500;
+   margin-bottom: 30px;
+   text-transform: 30px;
+   color:black
+}
+
+@media screen and (min-width : 768px){
+    .about__skills{
+        display: flex;
+        gap: 30px
+    }
+    .about__skills > div{
+        flex-grow: 1;
+    }
+}

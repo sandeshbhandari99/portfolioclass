@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+                font-family: Playfair, serif;
+                margin: 0;
+
+}
+h1,h2,h3,p{
+   all: unset;
+   display: block;
+}
+ul,li{
+    all: unset;
+}  
+a{
+    text-decoration: none;
+}
